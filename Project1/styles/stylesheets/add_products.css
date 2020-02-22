@@ -1,0 +1,50 @@
+
+#form_rowsss {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(31, 32, 36);
+    color: rgb(199, 4, 4);
+    width: 50%;
+    height: 45%;
+    font-size: 1.8em;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+#row1, #row2, #row3,#row4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-family: 'Lacquer', sans-serif;
+}
+
+.inp{
+    font-size: 1.8vw;
+    width: 25%;
+    height: 100%;
+    font-family: 'Lacquer', sans-serif;
+}
+
+#sub, #re {
+    border: 0.4vw solid rgb(36, 36, 54);
+    border-radius: .5vw;
+    width: 22%;
+    height: 100%;
+    transition: width 1s, height 2s;
+    
+}
+
+#sub:hover {
+    width: 25%;
+    height: 150%;
+    background-color: green;
+    border-color: rgb(4, 63, 2);
+    color: white;
+}
+#re:hover {
+    width: 25%;
+    height: 150%;
+    background-color: red;
+    border-color: rgb(112, 3, 3);
+    color: white;
+}

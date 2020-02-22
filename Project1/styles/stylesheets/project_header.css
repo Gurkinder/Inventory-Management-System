@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/303.Jpg");
+    background-position: top;
+    background-attachment: fixed;
+    margin: 0;
+}
+#main_div {
+    display: flex;
+    flex-flow: column wrap;
+    height: 50%;
+    justify-content: space-evenly;
+}
+
+#heading {
+    font-size: 4vw;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Akronim', cursive;
+    color: yellow;
+    transition: font-size 2s;
+}
+
+#heading:hover {
+    font-size: 5vw;
+}
+
+#web-navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.web_nav {
+    font-size: 2vw;
+    text-decoration: none;
+    padding: .5%;
+    width: 10%;
+    height: 83%;
+    text-align: center;
+    transition: width 2s, font-size 2s;
+    color: rgb(0, 255, 76);
+    font-family: 'Akronim', cursive;
+}
+
+a[href*="index"]:hover, a[href*="login"]:hover, a[href*="register"]:hover, 
+a[href*="view"]:hover, a[href*="add"]:hover {
+    background-color: rgb(217, 255, 244);
+    color: rgb(7, 216, 52);
+    width: 20%;
+    font-weight: bold;
+    font-size: 3vw;
+}

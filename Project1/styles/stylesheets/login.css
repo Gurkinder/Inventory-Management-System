@@ -1,0 +1,77 @@
+
+#login_content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    color: rgb(12, 22, 218);
+    background-color: rgb(31, 32, 36);
+    height: 40%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.lbl{
+    font-size: 1.8vw;
+    font-family: 'Lacquer', sans-serif;
+}
+
+.inp{
+    font-size: 1.8vw;
+    width: 25%;
+    height: 100%;
+    font-family: 'Lacquer', sans-serif;
+}
+
+#sub, #re {
+    border: 0.4vw solid rgb(36, 36, 54);
+    border-radius: .5vw;
+    width: 22%;
+    height: 100%;
+    transition: width 1s, height 2s;
+    
+}
+
+#sub:hover {
+    width: 25%;
+    height: 150%;
+    background-color: green;
+    border-color: rgb(4, 63, 2);
+    color: white;
+}
+#re:hover {
+    width: 25%;
+    height: 150%;
+    background-color: red;
+    border-color: rgb(112, 3, 3);
+    color: white;
+}
+
+#div_username {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#div_password {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#login_span {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#span_1, #span_2 {
+    width: 100%;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.6vw;
+}
+
+#div_buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
